@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>LED Control</title>
+</head>
+<body>
+    <div class="encender">
+        <button class="controls" id = 'on' onclick="changeState()">encender</button>
+        <button class="controls" id = 'off' onclick="changeState()">apagar</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./control_led.js"></script>
+</body>
+</html>
